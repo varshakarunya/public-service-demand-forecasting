@@ -1,35 +1,31 @@
 # Public Service Demand Forecasting
 
 ## Overview
-This project focuses on forecasting public service demand using historical service request and demographic data. 
-The goal is to support data-driven resource planning, staffing allocation, and operational efficiency for public-sector agencies.
+
+This project analyzes public service request data from the State of California to understand demand patterns and forecast future service volumes. The goal is to support data-driven operational planning by identifying temporal trends, seasonal effects, and high-demand periods across public services.
+
+The analysis simulates real-world forecasting workflows used by government agencies and public-sector analytics teams to optimize staffing, resource allocation, and service delivery.
 
 ## Problem Statement
 Public agencies need accurate demand forecasts to allocate resources efficiently across programs and regions. 
 Using historical service data, this project builds forecasting models to identify trends, seasonality, and future demand patterns.
 
 ## Objectives
-- Perform exploratory data analysis on service request data
-- Engineer time-based and demographic features
-- Build and evaluate time-series forecasting models
-- Generate insights to support operational planning
+
+- Perform exploratory data analysis on California public service request data  
+- Engineer time-based and seasonal features  
+- Build and evaluate time-series forecasting models  
+- Identify demand trends to support public-sector operational planning  
+
 
 ## Tools & Technologies
+
 - Python (Pandas, NumPy)
-- Time Series Modeling (ARIMA / Prophet)
+- Time Series Modeling (ARIMA, Prophet)
 - Data Visualization (Matplotlib, Seaborn)
 
-## Project Structure
-data/
-├── raw/
-├── processed/
-
-notebooks/
-
-src/
-
-results/
-└── figures/
 
 ## Status
-Initial project setup and exploratory analysis in progress.
+
+Project complete.  
+Exploratory analysis and time-series forecasting models have been implemented to demonstrate public-sector demand forecasting workflows using California service request data.
