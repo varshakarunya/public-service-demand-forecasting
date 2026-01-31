@@ -1,31 +1,37 @@
-# Public Service Demand Forecasting
+# Public Service Demand Forecasting (California)
 
 ## Overview
+This project focuses on forecasting public service demand using historical service request data from the state of California. The objective is to identify demand trends and build time-series forecasting models that support data-driven operational planning and resource allocation in the public sector.
 
-This project analyzes public service request data from the State of California to understand demand patterns and forecast future service volumes. The goal is to support data-driven operational planning by identifying temporal trends, seasonal effects, and high-demand periods across public services.
-
-The analysis simulates real-world forecasting workflows used by government agencies and public-sector analytics teams to optimize staffing, resource allocation, and service delivery.
-
-## Problem Statement
-Public agencies need accurate demand forecasts to allocate resources efficiently across programs and regions. 
-Using historical service data, this project builds forecasting models to identify trends, seasonality, and future demand patterns.
+The workflow reflects real-world analytics commonly used by government agencies for capacity planning and service optimization.
 
 ## Objectives
-
-- Perform exploratory data analysis on California public service request data  
-- Engineer time-based and seasonal features  
-- Build and evaluate time-series forecasting models  
-- Identify demand trends to support public-sector operational planning  
-
+- Perform exploratory data analysis on public service request data
+- Engineer time-based features and identify seasonal trends
+- Build and evaluate time-series forecasting models
+- Generate insights to support operational planning decisions
 
 ## Tools & Technologies
-
 - Python (Pandas, NumPy)
 - Time Series Modeling (ARIMA, Prophet)
 - Data Visualization (Matplotlib, Seaborn)
+- Jupyter Notebook / Google Colab
 
+## Methodology
+1. Data ingestion and preprocessing
+2. Time-based aggregation and trend analysis
+3. Forecasting model development
+4. Model evaluation using historical comparisons
+5. Interpretation of demand patterns and seasonality
 
-## Status
+## Key Insights
+- Public service demand exhibits clear seasonal and monthly trends
+- Forecasting models help anticipate peak service periods
+- Results can support staffing, budgeting, and resource allocation decisions
 
-Project complete.  
-Exploratory analysis and time-series forecasting models have been implemented to demonstrate public-sector demand forecasting workflows using California service request data.
+## Project Status
+Complete
+
+## How to Run
+- View notebooks directly on GitHub, or
+- Use the "Open in Colab" option for interactive execution
